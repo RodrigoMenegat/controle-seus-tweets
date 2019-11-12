@@ -21,13 +21,8 @@ Simplesmente clone o repositório e rode os scripts a partir do terminal. Viva! 
 
 1. Antes de mais nada, você precisa ter o Python 3 instalado em sua máquina. Se não tem , o primeiro passo é instalar [isso aqui](https://www.python.org/downloads/)! Depois, você precisa baixar esse repositório – ou seja, essa pasta – para o seu computador. Clique no **botão verde** que está nessa mesma página, ali em cima, e baixe o arquivo no formato ZIP. Descompacte em um lugar de sua preferência – sugiro a área de trabalho.
 
-2. Substitua os trechos entre aspas simples que estão no arquivo `credentials.py` com as suas credenciais de acesso à API do Twitter. Não sabe o que é? Calma!
-
-  Essas credenciais são quatro senhas necessárias para acessar os dados por trás do Twitter. O único problema é que você precisa pedir acesso. Você consegue fazer isso [aqui](https://developer.twitter.com/en/application/use-case).
-
-  Deve demorar algum tempo para liberar, mas quando tiver os códigos em mãos (eles devem parecer algo como `"xSsbxEa2812313xaer"`) é só colocar cada um deles em seu devido lugar no arquivo.
-
-  Não mexa em mais nada por lá (nem nos outros arquivos)! 
+2. Substitua os trechos entre aspas simples que estão no arquivo `credentials.py` com as suas credenciais de acesso à API do Twitter. Não sabe o que é? **Calma!** Essas credenciais são quatro senhas necessárias para acessar os dados por trás do Twitter. O único problema é que você precisa pedir acesso. Você consegue fazer isso [aqui](https://developer.twitter.com/en/application/use-case).
+Deve demorar algum tempo para liberar, mas quando tiver os códigos em mãos (eles devem parecer algo como `"xSsbxEa2812313xaer"`) é só colocar cada um deles em seu devido lugar no arquivo. **Não mexa em mais nada por lá (nem nos outros arquivos)!** 
 
 3. Agora que você já fez isso, vai precisar mexer no terminal de comando do computador. Sem medo! Apenas abra o aplicativo `Terminal`, caso use Mac ou Linux, ou o `Prompt de comando`, caso use Windows. 
 
