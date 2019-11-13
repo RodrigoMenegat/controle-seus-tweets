@@ -17,7 +17,7 @@ def unfav_tweets(api, tweet_ids):
 
 def main():
 
-  username = input("Digite o seu nome de usuário, sem a arroba, e aperte < ENTER >. Exemplo: @jack\n")
+  username = input("Digite o seu nome de usuário, sem a arroba, e aperte < ENTER >. Exemplo: jack\n")
 
   api = utils.login()
 
