@@ -129,8 +129,7 @@ def save_csv(output, fpath):
   gerados pela função fetch_tweets, em
   um arquivo csv determinado por fp.
   '''
-
-with open(fpath, "w+", encoding="UTF-8") as file:
-    writer = csv.writer(file)
-    writer.writerow(["id","datetime","created_at","text","retweet_count", "favorite_count", "username"])
-    writer.writerows(output)
+  with open(fpath, "w+", encoding="UTF-8") as file:
+      writer = csv.writer(file)
+      writer.writerow(["id","datetime","created_at","text","retweet_count", "favorite_count", "username"])
+      writer.writerows(output)
