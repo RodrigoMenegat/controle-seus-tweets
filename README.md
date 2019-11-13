@@ -19,12 +19,14 @@ Simplesmente clone o repositório, ajuste as credenciais em `credentials.py` e r
 
 ### Para leigos
 
-**1.** Antes de mais nada, você precisa ter o Python 3 instalado em sua máquina. Se não tem , o primeiro passo é instalar [isso aqui](https://www.python.org/downloads/)! Depois, você precisa baixar esse repositório – ou seja, essa pasta – para o seu computador. Clique no **botão verde** que está nessa mesma página, ali em cima, e baixe o arquivo no formato ZIP. Descompacte em um lugar de sua preferência – sugiro a área de trabalho.
+**1.** Antes de mais nada, você precisa ter o Python 3 instalado em sua máquina. Se não tem , o primeiro passo é instalar [isso aqui](https://www.python.org/downloads/)! 
 
-**2.** Substitua os trechos entre aspas simples que estão no arquivo `credentials.py` com as suas credenciais de acesso à API do Twitter. Não sabe o que é? **Calma!** Essas credenciais são quatro senhas necessárias para acessar os dados por trás do Twitter. O único problema é que você precisa pedir acesso. Você consegue fazer isso [aqui](https://developer.twitter.com/en/application/use-case).
+** 2.** Depois, você precisa baixar esse repositório – ou seja, essa pasta – para o seu computador. Clique no **botão "clone or download", em verde,** e baixe o arquivo no formato ZIP. Descompacte em um lugar de sua preferência – sugiro a área de trabalho.
+
+**3.** Agora, substitua os trechos entre aspas simples que estão no arquivo `credentials.py` com as suas credenciais de acesso à API do Twitter. Não sabe o que é? **Calma!** Essas credenciais são quatro senhas necessárias para acessar os dados por trás do Twitter. O único problema é que você precisa pedir acesso. Você consegue fazer isso [aqui](https://developer.twitter.com/en/application/use-case).
 Deve demorar algum tempo para liberar, mas quando tiver os códigos em mãos (eles devem parecer algo como `"xSsbxEa2812313xaer"`) é só colocar cada um deles em seu devido lugar no arquivo. **Não mexa em mais nada por lá (nem nos outros arquivos)!** 
 
-**3.** Agora que você já fez isso, vai precisar mexer no terminal de comando do computador. Sem medo! Apenas abra o aplicativo `Terminal`, caso use Mac ou Linux, ou o `Prompt de comando`, caso use Windows. 
+**3.** Você vai precisar mexer no terminal de comando do computador. Sem medo! Apenas abra o aplicativo `Terminal`, caso use Mac ou Linux, ou o `Prompt de comando`, caso use Windows. 
 
 **4.** Agora que você está na famosa telinha preta, precisamos caminhar até a pasta onde os arquivos que você baixou estão salvos. Digite o comando `cd` seguido do **caminho onde você salvou a pasta**. No meu caso, salvei a pasta na área de trabalho do Mac e tive de escrever o seguinte:
 
@@ -40,9 +42,9 @@ Deve demorar algum tempo para liberar, mas quando tiver os códigos em mãos (el
 
   Uma maneira simples de descobrir o caminho completo é **abrir as propriedades da pasta**.
 
-**5.** Agora, precisamos instalar algumas coisinhas que os programas que eu escrevi exigem. Na telinha preta, digite `pip install -r requirements.txt` e aperte enter. Um monte de letras vão pular na sua tela: são outras instalações. Não se preocupe: nada disso vai derreter seu computador. Espere tudo terminar.
+**5.** Precisamos instalar algumas coisinhas que os programas que eu escrevi exigem. Na telinha preta, digite `pip install -r requirements.txt` e aperte enter. Um monte de letras vão pular na sua tela: são outras instalações. Não se preocupe: nada disso vai derreter seu computador. Espere tudo terminar.
 
-**6.** Agora só precisamos rodar os programas! Para executar o script que baixa os *likes* de um usuário no formato de tabela, por exemplo, é só só digitar o seguinte no terminal e apertar enter:
+**6.** Agora só falta rodar os programas! Para executar o script que baixa os *likes* de um usuário no formato de tabela, por exemplo, é só só digitar o seguinte no terminal e apertar enter:
 
   ```
   >> python download_user_likes.py
