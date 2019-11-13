@@ -15,7 +15,7 @@ O plano aqui não é coletar dados em grande escala, mas permitir que pessoas qu
 
 ### Para quem manja um pouquinho de programação
 
-Simplesmente clone o repositório e rode os scripts a partir do terminal. Viva! ✨
+Simplesmente clone o repositório, ajuste as credenciais em `credentials.py` e rode os scripts a partir do terminal. Viva! ✨
 
 ### Para leigos
 

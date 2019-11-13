@@ -2,12 +2,9 @@
 Esse programa salva os tweets mais recentes - todos que a API do twitter 
 permite acessar - de um usuário em um arquivo de texto.
 '''
-import csv
+
 import datetime
-import pandas as pd
 import os
-import time
-import tweepy
 import utils
 
 

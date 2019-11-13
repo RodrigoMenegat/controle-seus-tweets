@@ -1,11 +1,7 @@
 '''
 Script para desfazer todos os likes do Twitter
 '''
-import datetime
-import pandas as pd
-import tweepy
 import utils
-
 
 def delete_favs(api, tweet_ids):
   '''

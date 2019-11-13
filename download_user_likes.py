@@ -3,8 +3,6 @@ Script para desfazer todos os likes do Twitter
 '''
 import datetime
 import os
-import pandas as pd
-import tweepy
 import utils
 
 

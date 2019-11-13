@@ -1,9 +1,6 @@
 '''
 Script para apagar todos os meus tweets mais antigos que determinada data
 '''
-import datetime
-import pandas as pd
-import tweepy
 import utils
 
 
