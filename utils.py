@@ -130,7 +130,7 @@ def save_csv(output, fpath):
   um arquivo csv determinado por fp.
   '''
 
-  with open(fpath, "w+") as file:
+with open(fpath, "w+", encoding="UTF-8") as file:
     writer = csv.writer(file)
     writer.writerow(["id","datetime","created_at","text","retweet_count", "favorite_count", "username"])
     writer.writerows(output)
